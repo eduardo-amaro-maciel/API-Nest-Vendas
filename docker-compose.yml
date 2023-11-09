@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - '5432:5432'
+
+  # cria a interface online para administrar o banco
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - '8080:8080'

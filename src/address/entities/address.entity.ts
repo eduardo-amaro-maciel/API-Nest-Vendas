@@ -9,7 +9,7 @@ import {
 @Entity({ name: 'address' })
 export class AddressEntity {
   @PrimaryGeneratedColumn('rowid')
-  id: number;
+  public id: number;
 
   @Column({ name: 'user_id', nullable: false })
   userId: number;
