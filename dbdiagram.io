@@ -136,5 +136,3 @@ Ref: OR.payment_id > PAY.id // many-to-one
 Ref: PAY.payment_pix_id > PP.id // many-to-one
 Ref: PAY.payment_credit_card_id > PCC.id // many-to-one
 Ref: CAR.user_id > U.id // many-to-one
-
-https://dbdiagram.io/d/Diagrama-Produto-63d99633296d97641d7d7fa7
