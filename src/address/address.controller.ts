@@ -1,4 +1,3 @@
-import { UserType } from 'src/user/enum/user-type.enum';
 import {
   Body,
   Controller,
@@ -11,6 +10,7 @@ import { CreateAddressDto } from './dtos/create-address.dto';
 import { AddressEntity } from './entities/address.entity';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserId } from 'src/decorators/user-id.decorator';
+import { UserType } from 'src/user/enum/user-type.enum';
 
 @Controller('address')
 export class AddressController {
