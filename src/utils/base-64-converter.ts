@@ -1,4 +1,4 @@
-import { LoginPayloadDto } from 'src/auth/dtos/login-payload.dto';
+import { LoginPayloadDto } from '../auth/dtos/login-payload.dto';
 //import { decode } from 'jsonwebtoken';
 export const authorizantionToLoginPayload = (
   authorization: string,
